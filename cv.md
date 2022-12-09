@@ -27,6 +27,6 @@ Minsk Innovation University,Economics and production management
 * **Courses:**
 Goit Polska,  HTML+CSS
 ### Languages
-* English (pre-intermediate)
-* Russian  (native speaker)
+* English (Pre-intermediate)
+* Russian  (Native speaker)
 * Polish (Upper-intermediate)
