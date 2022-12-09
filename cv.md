@@ -6,7 +6,6 @@
 * Telegram: @Blinchik
 * Poland, Gdansk
 * GitHub: [Linaplby](https://github.com/Linaplby)
-
 ### About myself
 My name's Lina. I am looking for a job as a front-end developer. Ready to work in the office as well as remotely. Currently live in Gdansk.  I am an energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situation that I am presented with.
 ### Skills
