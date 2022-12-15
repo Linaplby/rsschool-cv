@@ -16,132 +16,148 @@
     />
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#contacts" class="nav-link">Contacts</a>
-          </li>
-          <li class="nav-item">
-            <a href="#summary" class="nav-link">Summary</a>
-          </li>
-          <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-          <li class="nav-item">
-            <a href="#cousers" class="nav-link">Courses</a>
-          </li>
-          <li class="nav-item">
-            <a href="#Projects" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#Education" class="nav-link">Education</a>
-          </li>
-          <li class="nav-item">
-            <a href="#English" class="nav-link">English</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <section class="summary">
-        <h1>Lina Pranko</h1>
-        <h2>Front-End Developer</h2>
-        <p>
-          My name's Lina. I am looking for a job as a front-end developer. Ready
-          to work in the office as well as remotely. Currently live in Gdansk. I
-          know Polish, Belarusian, Russian and English. More information about
-          me you can find in my LinkedIn profile, CV or just by contacting me
-          directly.
-        </p>
-      </section>
-      <section>
-        <h2>Code</h2>
-        <code>multiply(a, b) { a * b return a * b }</code>
-      </section>
-      <section>
-        <h2>Courses</h2>
-        <ul>
-          <li>Goit Polska «Full Stack Developer»</li>
-          <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Projects</h2>
-        <ol>
-          <li>https://github.com/Linaplby/rsschool-cv/blob/gh-pages/cv.md</li>
-          <li>https://sage-kringle-079b94.netlify.app/</li>
-        </ol>
-      </section>
-      <section>
-        <h2>Work Experience</h2>
-        <h3>HR manager EKT company</h3>
-        <h4>June 2010- February 2023</h4>
-        <ul>
-          <li>Pre screening for potential candidates.</li>
-          <li>Organization of meetings and briefings.</li>
-          <li>Updating HR system with employees data.</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Education</h2>
-        <ul>
-          <li>Minsk Innovation University</li>
-        </ul>
-      </section>
-      <selection>
-        <h2>Languages</h2>
-        <ul>
-          <li>Polish (Upper-intermediate)</li>
-          <li>English (Pre-intermediate)</li>
-          <li>Belarusian (Native speaker)</li>
-          <li>Russian (Native speaker)</li>
-        </ul>
-      </selection>
-    </main>
-    <aside>
-      <img class="photoL" src="photoL.jpg" width="370" alt="Photo Lina" />
-      <div class="contact-blok">
-        <h2 class="header-secondary">Contacts</h2>
-        <p class="contact-links">
-          <span class="bold">C:</span>
-          <a class="contact-links" href="tel:+48517367257">+48 517 367 257</a>
-          <br />
-          <span class="bold">E:</span>
-          <a class="contact-links" href="mailto:linaprankoby@gmail.com"
-            >linaprankoby@gmail.com</a
-          >
-        </p>
-      </div>
-      <div class="tech-skills-blok">
-        <h2 class="header-secondary">Tech Skills</h2>
-        <ul class="list-secondary">
-          <li><span class="list-secondary-item">HTML5</span></li>
-          <li><span class="list-secondary-item">CSS3</span></li>
-          <li><span class="list-secondary-item">GIT</span></li>
-          <li>
-            <span class="list-secondary-item">JavaScript</span>
-          </li>
-          <li>
-            <span class="list-secondary-item">React.js</span>
-          </li>
-          <li>
-            <span class="list-secondary-item">Node.js</span>
-          </li>
-        </ul>
-      </div>
-      <div class="soft-skills-blok">
-        <h2 class="header-secondary">Soft Skills</h2>
-        <ul class="list-secondary">
-          <li><span class="list-secondary-item">Scrum</span></li>
-          <li><span class="list-secondary-item">Agile</span></li>
-          <li><span class="list-secondary-item">GTD</span></li>
-          <li>
-            <span class="list-secondary-item">Teamwork</span>
-          </li>
-        </ul>
-      </div>
-    </aside>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#cousers" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#English" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="summary">
+          <h1>Lina Pranko</h1>
+          <h2>Front-End Developer</h2>
+          <p class="description">
+            My name's Lina. I am looking for a job as a front-end developer.
+            Ready to work in the office as well as remotely. Currently live in
+            Gdansk. I know Polish, Belarusian, Russian and English. More
+            information about me you can find in my LinkedIn profile, CV or just
+            by contacting me directly.
+          </p>
+        </section>
+        <section>
+          <h2>Projects</h2>
+          <ol class="list-primary">
+            <li>
+              <a
+                class="list-primary-item"
+                href="https://github.com/Linaplby/rsschool-cv/blob/gh-pages/cv.md"
+                >https://github.com/Linaplby/rsschool-cv/blob/gh-pages/cv.md</a
+              >
+            </li>
+            <li>
+              <a
+                class="list-primary-item"
+                href="https://sage-kringle-079b94.netlify.app/"
+                >https://sage-kringle-079b94.netlify.app/</a
+              >
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h2>Work Experience</h2>
+          <h3 class="job-name">HR manager EKT company</h3>
+          <p class="job-date">June 2010- February 2023</p>
+          <ul class="description">
+            <li>Pre screening for potential candidates.</li>
+            <li>Organization of meetings and briefings.</li>
+            <li>Updating HR system with employees data.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Education</h2>
+          <h3 class="job-name">Minsk Innovation University</h3>
+          <ul class="description">
+            <li>Economics and production management</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Courses</h2>
+          <ul class="description">
+            <li>Goit Polska «Full Stack Developer»</li>
+            <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Languages</h2>
+          <ul class="description">
+            <li>Polish (Upper-intermediate)</li>
+            <li>English (Pre-intermediate)</li>
+            <li>Belarusian (Native speaker)</li>
+            <li>Russian (Native speaker)</li>
+          </ul>
+        </section>
+      </main>
+      <aside>
+        <img
+          class="photoL.jpg"
+          src="assets/photoL.jpg"
+          width="370"
+          alt="Photo Lina"
+        />
+        <div class="contact-blok">
+          <h2 class="header-secondary">Contacts</h2>
+          <p class="contact-links">
+            <span class="bold">C:</span>
+            <a class="contact-links" href="tel:+48517367257">+48 517 367 257</a>
+            <br />
+            <span class="bold">E:</span>
+            <a class="contact-links" href="mailto:linaprankoby@gmail.com"
+              >linaprankoby@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="tech-skills-blok">
+          <h2 class="header-secondary">Tech Skills</h2>
+          <ul class="list-secondary">
+            <li><span class="list-secondary-item">HTML5</span></li>
+            <li><span class="list-secondary-item">CSS3</span></li>
+            <li><span class="list-secondary-item">GIT</span></li>
+            <li>
+              <span class="list-secondary-item">JavaScript</span>
+            </li>
+            <li>
+              <span class="list-secondary-item">React.js</span>
+            </li>
+            <li>
+              <span class="list-secondary-item">Node.js</span>
+            </li>
+          </ul>
+        </div>
+        <div class="soft-skills-blok">
+          <h2 class="header-secondary">Soft Skills</h2>
+          <ul class="list-secondary">
+            <li><span class="list-secondary-item">Scrum</span></li>
+            <li><span class="list-secondary-item">Agile</span></li>
+            <li><span class="list-secondary-item">GTD</span></li>
+            <li>
+              <span class="list-secondary-item">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <footer></footer>
+    </div>
   </body>
 </html>
