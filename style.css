@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: #e5e5e5;
+  background: #f9f9f9;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -84,7 +84,8 @@ h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
-  color: #000000;
+  color: #424242;
+  color: s;
   padding: 0;
   list-style-position: inside;
 }
@@ -117,23 +118,16 @@ h2 {
   flex-direction: column;
   justify-content: space-between;
 }
-
-.nav-link {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  font-family: sans-serif;
-  color: #000000;
-  display: inline-block;
-  padding: 10px 20px;
-}
 .menu li {
   font-family: "Montserrat", sans-serif;
   display: block;
-  position: relative;
 }
-.nav {
-  font-family: "Montserrat", sans-serif;
-  display: block;
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  padding: 30px;
   position: relative;
 }
 footer {
@@ -158,4 +152,7 @@ footer {
 .footer__rsschool {
   justify-self: end;
   height: 32px;
+}
+.header {
+  background: #434b58;
 }
