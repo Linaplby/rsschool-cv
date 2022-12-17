@@ -1,1 +1,158 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f9f9f9;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 0% auto;
+  width: 1240px;
+  max-width: 1440px;
+  background: #f5f4f3;
+  box-shadow: 6px 6px 20px 0px #0000001a;
+}
+aside {
+  width: 670px;
+  background: #434b58;
+}
+.photoL {
+  margin-top: 30px;
+}
+.contact-blok {
+  color: #ffffff;
+  margin-top: 51px;
+  margin-left: 40px;
+}
+.header-secondary {
+  color: #ffffff;
+}
+.contact-links {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.bold {
+  color: #ffffff;
+  font-weight: 700;
+}
+.tech-skills-blok {
+  color: #ffffff;
+  margin-top: 47px;
+  margin-left: 40px;
+}
+.soft-skills-blok {
+  color: #ffffff;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.list-secondary-item {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+main {
+  padding: 102px 88px 102px 88px;
+}
+.main-description {
+  width: 400px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+h2 {
+  color: #635e19;
+}
 
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-bottom: 40px;
+}
+
+.list-primary {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #424242;
+  color: s;
+  padding: 0;
+  list-style-position: inside;
+}
+.list-primary-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-decoration: none;
+}
+.job-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.job-date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #837c7c;
+}
+.adress {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu li {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+}
+.nav-link {
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  padding: 30px;
+  position: relative;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0% auto;
+  width: 1240px;
+  max-width: 1440px;
+  background: #f5f4f3;
+}
+
+.footer__github {
+  position: relative;
+  padding-left: 60px;
+}
+
+.footer__year {
+  padding-left: 100px;
+}
+.footer__rsschool {
+  justify-self: end;
+  height: 32px;
+}
+.header {
+  background: #434b58;
+}
