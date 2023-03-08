@@ -25,8 +25,8 @@ function multiply(a, b) {
 * **University:**
 Minsk Innovation University,Economics and production management
 * **Courses:**
-Goit Polska,  HTML+CSS
-RS School, JS/FE Pre-School 2022Q4
+* Goit Polska,  HTML+CSS
+* RS School, JS/FE Pre-School 2022Q4
 ### Languages
 * English (Pre-intermediate)
 * Russian  (Native speaker)
