@@ -23,7 +23,7 @@ function multiply(a, b) {
 ```
 ### Education
 * **University:**
-Minsk Innovation University,Economics and production management
+* Minsk Innovation University,Economics and production management
 * **Courses:**
 * Goit Polska,  HTML+CSS
 * RS School, JS/FE Pre-School 2022Q4
