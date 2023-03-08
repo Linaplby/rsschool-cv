@@ -3,7 +3,7 @@
 ### Contact information
 * Phone: +48 517 367 257
 * E-mail: linaprankoby@gmail.com
-* Telegram: @Blinchik
+* Telegram: @Blinchik5
 * Poland, Gdansk
 * GitHub: [Linaplby](https://github.com/Linaplby)
 ### About myself
